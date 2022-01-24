@@ -24,6 +24,15 @@ module ObliqueApplication
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
+    config.middleware.use ActionDispatch::Cookies
+    config.middleware.use ActionDispatch::Session::CookieStore
+    # config.action_dispatch.cookies_same_site_protection = :strict
+    config.middleware.insert_after(ActionDispatch::Cookies, ActionDispatch::Session::CookieStore)
+        config.x.cors_allowed_origins = ENV['CORS_ALLOWED_ORIGINS']
+        Rails.configuration.action_controller.per_form_csrf_tokens = true
+    
+        config.api_only = true
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
