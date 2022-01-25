@@ -55,16 +55,17 @@ function App() {
       <div className="App">
         <div className="container">
           <Navigation loggedin={loggedin} handleLogout={handleLogout} />
+          <Home component={Home} />
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/login" setUser={setUser} setLoggedIn={setLoggedIn} component={Login}/>
+            
+            <Route exact path="/login" element={<Login setUser={setUser} setLoggedIn={setLoggedIn}/>}/>
               
           
-            <Route exact path="/register" etUser={setUser} setLoggedIn={setLoggedIn} component={Register}/>
+            <Route exact path="/register" element={<Register setUser={setUser} setLoggedIn={setLoggedIn}/>}/>
         
        
-            <Route exact path ="/history" component={History} />
-            <Route exact path="/profile" component={Profile} setUser={setUser} setLoggedIn={setLoggedIn} user={user}/>
+            <Route exact path ="/history" element={<History/>}/>
+            <Route exact path="/profile" element={<Profile setUser={setUser} setLoggedIn={setLoggedIn} user={user}/>}/>
               {/* {loggedin ? (
                 <Profile user={user} setLoggedIn={setLoggedIn} />
               ) : (
