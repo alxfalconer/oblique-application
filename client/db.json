@@ -1,0 +1,464 @@
+{"home": {
+  "get":
+  { "cards": [
+    {
+      "id": 1,
+      "strategy": "Abandon normal instruments"
+    },
+      { 
+        "id": 2,
+    "strategy": "Accept advice"
+  },
+    { 
+      "id": 3,
+    "strategy": "Accretion"
+  },
+    {
+       "id": 4,
+    "strategy": "A line has two sides"
+  },
+    {
+       "id": 5,
+    "strategy": "Allow an easement (an easement is the abandonment of a stricture)"
+  },
+    {
+       "id": 6,
+    "strategy": "Are there sections? Consider transitions"
+  },
+    { 
+      "id": 7,
+    "strategy": "Ask people to work against their better judgement"
+  },
+    { 
+      "id": 8,
+    "strategy": "Ask your body"
+  },
+    { 
+      "id": 9,
+    "strategy": "Assemble some of the instruments in a group and treat the group"
+  },
+    { 
+      "id": 10,
+    "strategy": "Balance the consistency principle with the inconsistency principle"
+  },
+    {
+       "id": 11,
+    "strategy": "Be dirty"
+  },
+    {
+       "id": 12,
+    "strategy":  "Breathe more deeply"
+  },
+    { 
+      "id": 13,
+    "strategy": "Bridges -build -burn"
+  },
+    { 
+      "id": 14,
+    "strategy":  "Cascades"
+  },
+    { 
+      "id": 15,
+    "strategy": "Change instrument roles"
+  },
+    { 
+      "id": 16,
+    "strategy": "Change nothing and continue with immaculate consistency"
+  },
+  { 
+    "id": 17,
+  "strategy": "Children's voices -speaking -singing"
+},
+{ 
+  "id": 18,
+"strategy": "Cluster analysis"
+},
+{ 
+  "id": 19,
+"strategy": "Consider different fading systems"
+},
+{ 
+  "id": 20,
+"strategy": "Consult other sources -promising -unpromising"
+},
+{ 
+  "id": 21,
+"strategy": "Convert a melodic element into a rhythmic element"
+},
+{ 
+  "id": 22,
+"strategy": "Courage!"
+},
+{ 
+  "id": 23,
+"strategy": "Cut a vital connection"
+},
+{ 
+  "id": 24,
+"strategy": "Decorate, decorate"
+},
+{ 
+  "id": 25,
+"strategy": "Define an area as 'safe' and use it as an anchor"
+},
+{ 
+  "id": 26,
+"strategy": "Destroy -nothing -the most important thing"
+},
+{ 
+  "id": 27,
+"strategy": "Discard an axiom"
+},
+{ 
+  "id": 28,
+"strategy": "Disconnect from desire"
+},
+{ 
+  "id": 29,
+"strategy": "Discover the recipes you are using and abandon them"
+},
+{ 
+  "id": 30,
+"strategy": "Distorting time"
+},
+{ 
+  "id": 31,
+"strategy": "Do nothing for as long as possible"
+},
+{ 
+  "id": 32,
+"strategy": "Don't be afraid of things because they're easy to do"
+},
+{ 
+  "id": 33,
+"strategy": "Don't be frightened of cliches"
+},
+{ 
+  "id": 34,
+"strategy": "Don't be frightened to display your talents"
+},
+{ 
+  "id": 35,
+"strategy": "Don't break the silence"
+},
+{ 
+  "id": 36,
+"strategy": "Don't stress one thing more than another"
+},
+{ 
+  "id": 37,
+"strategy": "Do something boring"
+},
+{ 
+  "id": 38,
+"strategy": "Do the washing up"
+},
+{ 
+  "id": 39,
+"strategy": "Do the words need changing?"
+},
+{ 
+  "id": 40,
+"strategy": "Do we need holes?"
+},
+{ 
+  "id": 41,
+"strategy": "Emphasise differences"
+},
+{ 
+  "id": 42,
+"strategy": "Emphasise repetitions"
+},
+{ 
+  "id": 43,
+"strategy": "Emphasise the flaws"
+},
+{ 
+  "id": 44,
+"strategy": "Faced with a choice, do both (given by Dieter Rot)"
+},
+{ 
+  "id": 45,
+"strategy": "Feedback recordings into an acoustic situation"
+},
+{ 
+  "id": 46,
+"strategy": "Fill every beat with something"
+},
+{ 
+  "id": 47,
+"strategy": "Get your neck massaged"
+},
+{ 
+  "id": 48,
+"strategy": "Ghost echoes"
+},
+{ 
+  "id": 49,
+"strategy": "Give the game away"
+},
+{ 
+  "id": 50,
+"strategy": "Give way to your worst impulse"
+},
+{ 
+  "id": 51,
+"strategy": "Go slowly all the way round the outside"
+},
+{ 
+  "id": 52,
+"strategy": "Honor thy error as a hidden intention"
+},
+{ 
+  "id": 53,
+"strategy": "How would you have done it?"
+},
+{ 
+  "id": 54,
+"strategy": "Humanise something free of error"
+},
+{ 
+  "id": 55,
+"strategy": "Imagine the music as a moving chain or caterpillar"
+},
+{ 
+  "id": 56,
+"strategy": "Imagine the music as a set of disconnected events"
+},
+{ 
+  "id": 57,
+"strategy": "Infinitesimal gradations"
+},
+{ 
+  "id": 58,
+"strategy": "Intentions -credibility of -nobility of -humility of"
+},
+{ 
+  "id": 59,
+"strategy": "Into the impossible"
+},
+{ 
+  "id": 60,
+"strategy": "Is it finished?"
+},
+{ 
+  "id": 61,
+"strategy": "Is there something missing?"
+},
+{ 
+  "id": 62,
+"strategy": "Is the tuning appropriate?"
+},
+{ 
+  "id": 63,
+"strategy": "Just carry on"
+},
+{ 
+  "id": 64,
+"strategy": "Left channel, right channel, centre channel"
+},
+{ 
+  "id": 65,
+"strategy": "Listen in total darkness, or in a very large room, very quietly"
+},
+{ 
+  "id": 66,
+"strategy": "Listen to the quiet voice"
+},
+{ 
+  "id": 67,
+"strategy": "Look at a very small object, look at its centre"
+},
+{ 
+  "id": 68,
+"strategy": "Look at the order in which you do things"
+},
+{ 
+  "id": 69,
+"strategy": "Look closely at the most embarrassing details and amplify them"
+},
+{ 
+  "id": 70,
+"strategy": "Lowest common denominator check -single beat -single note -single riff"
+},
+{ 
+  "id": 71,
+"strategy": "Make a blank valuable by putting it in an exquisite frame"
+},
+{ 
+  "id": 72,
+"strategy": "Make an exhaustive list of everything you might do and do the last thing on the list"
+},
+{ 
+  "id": 73,
+"strategy": "Make a sudden, destructive unpredictable action; incorporate"
+},
+{ 
+  "id": 74,
+"strategy": "Mechanicalise something idiosyncratic"
+},
+{ 
+  "id": 75,
+"strategy": "Mute and continue"
+},
+{ 
+  "id": 76,
+"strategy": "Only one element of each kind"
+},
+{ 
+  "id": 77,
+"strategy": "(Organic) machinery"
+},
+{ 
+  "id": 78,
+"strategy": "Overtly resist change"
+},
+{ 
+  "id": 79,
+"strategy": "Put in earplugs"
+},
+{ 
+  "id": 80,
+"strategy": "Remember those quiet evenings"
+},
+{ 
+  "id": 81,
+"strategy": "Remove ambiguities and convert to specifics"
+},
+{ 
+  "id": 82,
+"strategy": "Remove specifics and convert to ambiguities"
+},
+{ 
+  "id": 83,
+"strategy": "Repetition is a form of change"
+},
+{ 
+  "id": 84,
+"strategy": "Reverse"
+},
+{ 
+  "id": 85,
+"strategy": "Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)"
+},
+{ 
+  "id": 86,
+"strategy": "Shut the door and listen from outside"
+},
+{ 
+  "id": 87,
+"strategy": "Simple subtraction"
+},
+{ 
+  "id": 88,
+"strategy": "Spectrum analysis"
+},
+{ 
+  "id": 89,
+"strategy": "Take a break"
+},
+{ 
+  "id": 90,
+"strategy": "Take away the elements in order of apparent non-importance"
+},
+{ 
+  "id": 91,
+"strategy": "Tape your mouth (given by Ritva Saarikko)"
+},
+{ 
+  "id": 92,
+"strategy": "The inconsistency principle"
+},
+{ 
+  "id": 93,
+"strategy": "The tape is now the music"
+},
+{ 
+  "id": 94,
+"strategy": "Think of the radio"
+},
+{ 
+  "id": 95,
+"strategy": "Tidy up"
+},
+{ 
+  "id": 96,
+"strategy": "Trust in the you of now"
+},
+{ 
+  "id": 97,
+"strategy": "Turn it upside down"
+},
+{ 
+  "id": 98,
+"strategy": "Twist the spine"
+},
+{ 
+  "id": 99,
+"strategy": "Use an old idea"
+},
+{ 
+  "id": 100,
+"strategy": "Use an unacceptable colour"
+},
+{ 
+  "id": 101,
+"strategy": "Use fewer notes"
+},
+{ 
+  "id": 102,
+"strategy": "Use filters"
+},
+{ 
+  "id": 103,
+"strategy": "Use 'unqualified' people"
+},
+{ 
+  "id": 104,
+"strategy": "Water"
+},
+{ 
+  "id": 105,
+"strategy": "What are you really thinking about just now? Incorporate"
+},
+{ 
+  "id": 106,
+"strategy": "What is the reality of the situation?"
+},
+{ 
+  "id": 107,
+"strategy": "What mistakes did you make last time?"
+},
+{ 
+  "id": 108,
+"strategy": "What would your closest friend do?"
+},
+{ 
+  "id": 109,
+"strategy": "What wouldn't you do?"
+},
+{ 
+  "id": 110,
+"strategy": "Work at a different speed"
+},
+{ 
+  "id": 111,
+"strategy": "You are an engineer"
+},
+{ 
+  "id": 112,
+"strategy": "You can only make one dot at a time"
+},
+{ 
+  "id": 113,
+"strategy": "You don't have to be ashamed of using your own ideas"
+},
+{ 
+  "id": 114,
+"strategy": "[blank white card]"
+}
+]
+  
+}
+}
+}
