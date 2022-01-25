@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-const api = "http://localhost:5000/"
+const api = "http://localhost:3001/"
 const axios = require('axios').default;
 
 export const Strategy = () => {
@@ -9,7 +9,7 @@ export const Strategy = () => {
 
     const getStrategy = () => {
       const url =
-      'http://localhost:3000/home';
+      'http://localhost:5000/home';
 
       axios.get(url).then(res => {
           const data = res.data.get.cards;

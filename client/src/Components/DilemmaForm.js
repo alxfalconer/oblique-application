@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const api = "http://localhost:5000/"
+const api = "http://localhost:3001/"
 
 export const DilemmaForm = (props) => {
   const [input, setInput] = useState("");

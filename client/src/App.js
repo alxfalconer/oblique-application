@@ -55,8 +55,9 @@ function App() {
       <div className="App">
         <div className="container">
           <Navigation loggedin={loggedin} handleLogout={handleLogout} />
-          <Home component={Home} />
+          
           <Routes>
+          <Route exact path="/home" element={<Home/>}/>
             
             <Route exact path="/login" element={<Login setUser={setUser} setLoggedIn={setLoggedIn}/>}/>
               

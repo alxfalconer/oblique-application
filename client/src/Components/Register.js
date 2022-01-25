@@ -7,7 +7,7 @@ export const Register = ({ setUser, setLoggedIn }) => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   // const [username, setUsername] = useState("")
-  const history = useNavigate()                      // Used for redirect after registration
+  const history = useNavigate()                
 
   const handleChange = (e) => {
     if (e.target.name === "email") setEmail(e.target.value)

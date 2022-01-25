@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import oblique from "./oblique.jpg"
 
+
 export const Home = () => {
     const learnMore = () => {
         window.open('https://en.wikipedia.org/wiki/Lateral_thinking', '_blank')
@@ -17,6 +18,7 @@ export const Home = () => {
             <br></br>
             <h3><img className="oblique" src={oblique} alt="oblique"/></h3>
             <br></br>
+        
         <Link className= "delete-btn" to="/login">Login</Link>
         <div class="divider"/>
         <Link className= "delete-btn" to="/register">Register</Link>

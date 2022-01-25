@@ -5,9 +5,10 @@ export const Navigation = ({ loggedin, handleLogout }) => {
     <div>
       <Navbar  bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">O.A.</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+        <h1 className="title">O B L I Q U E - A P P</h1>
+          <Navbar.Brand href="/home" className='title'>O.A.</Navbar.Brand>
+          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav"> */}
             <Nav className="me-auto">
 
               <Nav.Link href="history">History</Nav.Link>
@@ -32,7 +33,7 @@ export const Navigation = ({ loggedin, handleLogout }) => {
                 </>
               )}
             </Nav>
-          </Navbar.Collapse>
+          {/* </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </div>

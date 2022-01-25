@@ -23,7 +23,7 @@ export const Dilemma = ({dilemmas, deleteDilemma, updateDilemma}) => {
      {/* <div class="divider"/> */}
      <br></br>
      <button onClick={() => deleteDilemma(dilemma.id)} className="delete-btn"
-     >Delete</button>
+     >Clear</button>
      <br></br><br></br><br></br>
      </div>
      </CardGroup>
