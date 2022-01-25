@@ -1,41 +1,30 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 
-export const Navigation = ({ loggedin, handleLogout }) => {
+export const Navigation = () => {
   return (
-    <div>
-      <Navbar  bg="dark" variant="dark">
-        <Container>
-        <h1 className="title">O B L I Q U E - A P P</h1>
-          <Navbar.Brand href="/home" className='title'>O.A.</Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav"> */}
-            <Nav className="me-auto">
-
-              <Nav.Link href="history">History</Nav.Link>
-             
-              
-            </Nav>
-            <Nav>
-              {loggedin ? (
-                <>
-                 <Nav.Link eventKey={2} href="profile">
-                    Strategize
-                  </Nav.Link>
-                  <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
-                 
-                </>
-              ) : (
-                <>
-                   <Nav.Link eventKey={2} href="register">
-                    Register
-                  </Nav.Link>
-                  <Nav.Link href="login">Login</Nav.Link>
-                </>
-              )}
-            </Nav>
-          {/* </Navbar.Collapse> */}
-        </Container>
-      </Navbar>
-    </div>
+    <nav className="nav" style={{ 
+      backgroundColor: "black", 
+      position: "sticky",
+      top: "0", 
+      borderBottom: "solid", 
+      borderWidth: "1px", 
+      borderColor: "#929ca7", 
+      paddingBottom: "25px", 
+      paddingTop: "25px", 
+      textAlign: "Center", 
+      fontSize: "18px", 
+      marginTop:"3%", 
+      fontFamily: "Optima", 
+      fontWeight: "100", 
+      color: "#343a40", 
+      display: "flex", 
+      justifyContent: "space-around"}}>
+        <Link to="/home" style={{fontSize: "23px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}} className="title">O B L I Q U E - A P P</Link>
+          <Link to="/profile" className="me-auto" style={{fontSize: "18px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>Strategize</Link>
+          <Link to="/history" className="me-auto" style={{fontSize: "18px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>History</Link>
+           
+        
+     
+     </nav>
   );
 };
