@@ -38,22 +38,11 @@ class StrategiesController < ApplicationController
         render json: strategy
     end
 
-    # def create
-    #     @user = User.find_by(session[:user_id])
-    #     @strategy = @user.strategies.create(strategy_params)
-    #     render json: @strategy
-    # end
-
     private
 
     def strategy_params
         params.require(:strategy).permit(:user_id, :dilemma_id, :strategy_text)
-        # params.permit(:dilemma_id, :strategy_text)
     end
-
-    # def dilemma_params
-    #     params.require(:dilemma).permit(:user_id, :dilemma_text)
-    # end
 end
 
 
