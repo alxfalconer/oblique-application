@@ -9,11 +9,9 @@ export const Navigation = ({ loggedin, handleLogout }) => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              {/* <Nav.Link href="deals">Search Games</Nav.Link> */}
-              <Nav.Link href="gallery">Gallery</Nav.Link>
-              {/* <Nav.Link href="alerts_page">ALL ALERTS</Nav.Link> */}
+
               <Nav.Link href="history">History</Nav.Link>
-              <Nav.Link href="store">Store</Nav.Link>
+             
               
             </Nav>
             <Nav>

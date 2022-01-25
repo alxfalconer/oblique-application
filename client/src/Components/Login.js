@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const api = "http://localhost:3001/"
 
 export const Login = ({ setUser, setLoggedIn }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const history = useHistory(); // Used for redirect after login
+  const history = useNavigate(); // Used for redirect after login
 
   const handleChange = (e) => {
     if (e.target.name === "email") setEmail(e.target.value);

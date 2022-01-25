@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./Components/Home";
 
 import { Login } from "./Components/Login";
@@ -7,7 +7,7 @@ import { History } from './Components/History'
 import { Profile } from "./Components/Profile";
 import { NoMatch } from "./Components/NoMatch";
 import { Navigation } from "./Components/Navigation";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 import "./App.css";
 
 const api = "http://localhost:3001/"
@@ -51,30 +51,31 @@ function App() {
 
   return (
     <Router>
+      <Fragment>
       <div className="App">
         <div className="container">
           <Navigation loggedin={loggedin} handleLogout={handleLogout} />
-          <Switch>
+          <Routes>
             <Route exact path="/" component={Home} />
-            <Route exact path="/login">
-              <Login setUser={setUser} setLoggedIn={setLoggedIn} />
-            </Route>
-            <Route exact path="/register">
-              <Register setUser={setUser} setLoggedIn={setLoggedIn} />
-            </Route>
+            <Route exact path="/login" setUser={setUser} setLoggedIn={setLoggedIn} component={Login}/>
+              
+          
+            <Route exact path="/register" etUser={setUser} setLoggedIn={setLoggedIn} component={Register}/>
+        
        
             <Route exact path ="/history" component={History} />
-            <Route exact path="/profile">
-              {loggedin ? (
+            <Route exact path="/profile" component={Profile} setUser={setUser} setLoggedIn={setLoggedIn} user={user}/>
+              {/* {loggedin ? (
                 <Profile user={user} setLoggedIn={setLoggedIn} />
               ) : (
                 <Login setUser={setUser} setLoggedIn={setLoggedIn} />
               )}
-            </Route>
+            </Route> */}
             <Route component={NoMatch} />
-          </Switch>
+          </Routes>
         </div>
       </div>
+      </Fragment>
     </Router>
   );
 }
