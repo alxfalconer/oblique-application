@@ -20,8 +20,8 @@ export const Navigation = () => {
       display: "flex", 
       justifyContent: "space-around"}}>
         <Link to="/home" style={{fontSize: "23px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}} className="title">O B L I Q U E - A P P</Link>
-          <Link to="/profile" className="me-auto" style={{fontSize: "18px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>Strategize</Link>
-          <Link to="/history" className="me-auto" style={{fontSize: "18px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>History</Link>
+          <Link to="/profile" className="me-auto" style={{fontSize: "17px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>Strategize</Link>
+          <Link to="/history" className="me-auto" style={{fontSize: "17px", fontFamily: "Optima", color: "white", textDecorationColor: "none"}}>History</Link>
            
         
      
