@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-const api = "http://localhost:3001/"
+const api = "https://oblique-application.herokuapp.com/"
 
 export const Login = ({ setUser, setLoggedIn }) => {
   const [email, setEmail] = useState("");

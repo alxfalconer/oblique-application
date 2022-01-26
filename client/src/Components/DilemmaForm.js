@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-const api = "http://localhost:3001/"
+const api = "https://oblique-application.herokuapp.com/"
 
 export const DilemmaForm = (props) => {
   const [input, setInput] = useState("");

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {DilemmaForm} from './DilemmaForm';
 import {Dilemma} from './Dilemma';
-const api = "http://localhost:3001/"
+const api = "https://oblique-application.herokuapp.com/"
 
 export const DilemmaList = () => {
   const [dilemmas, setDilemmas] = useState([]);

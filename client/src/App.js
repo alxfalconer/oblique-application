@@ -10,7 +10,7 @@ import { Navigation } from "./Components/Navigation";
 import React, { useState, useEffect, Fragment } from "react";
 import "./App.css";
 
-const api = "http://localhost:3001/"
+const api = "https://oblique-application.herokuapp.com/"
 
 function App() {
   const [user, setUser] = useState({}); // User info
