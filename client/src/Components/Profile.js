@@ -7,7 +7,7 @@ import { ListGroup } from "react-bootstrap";
 export const Profile = ({ user }) => {
   return (
     <div>
-      <h1>C O N S U L T A T I O N</h1>
+      <h2>C O N S U L T A T I O N</h2>
       <ListGroup variant="flush" style={{ width: "50%", margin: "auto" }}>
         <ListGroup.Item>{user.email}</ListGroup.Item>
       </ListGroup>

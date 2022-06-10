@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-const api = "https://oblique-application.herokuapp.com/"
+const api = "http://localhost:3001/"
 const axios = require('axios').default;
 
 export const Strategy = () => {
